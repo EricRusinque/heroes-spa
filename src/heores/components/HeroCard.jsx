@@ -18,12 +18,12 @@ export const HeroCard = ({id, superhero, publisher, alter_ego, first_appearance,
 
     // const charactersByHero = (<p>{ characters }</p>);
 
-    return (
-    <div className="col">
+    return ( 
+    <div className="col animate__animated animate__fadeIn">
         <div className="card">
 
             <div className="row no-gutters">
-                <div className="col-4">
+                <div className="col-4 ">
                     <img src={ heroImageUrl } alt={ superhero } className="card-img"/>
                 </div>
             </div>
