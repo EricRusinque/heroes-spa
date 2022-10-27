@@ -13,7 +13,7 @@ export const HeroesRoutes = () => {
                 <Route path='dc' element={ <DcPages />}/> 
 
                 <Route path='search' element={ <SearchPage />}/> 
-                <Route path='hero' element={ <HeroPage />}/> 
+                <Route path='hero/:id' element={ <HeroPage />}/> 
                 // Navigate ruta que apuntara por defecto en caso que el url no coincida 
                 <Route path='/' element={ <Navigate to="/marvel"/> }/> 
             </Routes>   
