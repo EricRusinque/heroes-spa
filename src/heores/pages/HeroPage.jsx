@@ -16,13 +16,13 @@ export const HeroPage = () => {
     const onNavigateBack = () => {
       hero.publisher === 'DC Comics'
       ?
-      navigate('/dc')
+      navigate('heroes-spa/dc')
       :
-      navigate('/marvel')
+      navigate('heroes-spa/marvel')
     }
 
     if( !hero ) {
-      return <Navigate to="/marvel"/>
+      return <Navigate to="heroes-spa/marvel"/>
     }
 
 

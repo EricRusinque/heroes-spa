@@ -18,7 +18,7 @@ export const AppRouter = () => {
 
 
 
-            <Route path='/*' element={
+            <Route path='heroes-spa/*' element={
               <PrivateRoute>
                 <HeroesRoutes/>
               </PrivateRoute>

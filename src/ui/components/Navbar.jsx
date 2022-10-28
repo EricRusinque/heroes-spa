@@ -13,7 +13,7 @@ export const Navbar = () => {
 
         logout();
 
-        navigate('/login',{
+        navigate('heroes-spa/login',{
             replace: true
         });
     
@@ -24,7 +24,7 @@ export const Navbar = () => {
             
             <Link 
                 className="navbar-brand" 
-                to="heroes-spa"
+                to="heroes-spa/marvel"
             >
                 Asociaciones
             </Link>
