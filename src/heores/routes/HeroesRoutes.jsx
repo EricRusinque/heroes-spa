@@ -9,13 +9,13 @@ export const HeroesRoutes = () => {
         <Navbar/>
         <div className='container'>
             <Routes>
-                <Route path='heroes-spa/marvel' element={ <MarvelPage />}/> 
-                <Route path='heroes-spa/dc' element={ <DcPages />}/> 
+                <Route path='/marvel' element={ <MarvelPage />}/> 
+                <Route path='/dc' element={ <DcPages />}/> 
 
-                <Route path='heroes-spa/search' element={ <SearchPage />}/> 
-                <Route path='heroes-spa/hero/:id' element={ <HeroPage />}/> 
+                <Route path='/search' element={ <SearchPage />}/> 
+                <Route path='/hero/:id' element={ <HeroPage />}/> 
                 // Navigate ruta que apuntara por defecto en caso que el url no coincida 
-                <Route path='heroes-spa/' element={ <Navigate to="heroes-spa/marvel"/> }/> 
+                <Route path='/' element={ <Navigate to="/marvel"/> }/> 
             </Routes>   
         </div>
     </>
