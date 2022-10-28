@@ -10,7 +10,7 @@ export const AppRouter = () => {
     <>
         <Routes>
            
-            <Route path='login' element={
+            <Route path='heroes-spa/login' element={
               <PublicRoute>
                  <LoginPage />
               </PublicRoute>

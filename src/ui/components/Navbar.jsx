@@ -24,7 +24,7 @@ export const Navbar = () => {
             
             <Link 
                 className="navbar-brand" 
-                to="/"
+                to="heroes-spa/"
             >
                 Asociaciones
             </Link>
@@ -34,20 +34,20 @@ export const Navbar = () => {
 
                     <NavLink 
                         className={({isActive}) => `nav-item nav-link ${ isActive ? 'active': ''}`} 
-                        to="/marvel"
+                        to="heroes-spa/marvel"
                     >
                         Marvel
                     </NavLink>
 
                     <NavLink 
                         className={({isActive}) => `nav-item nav-link ${ isActive ? 'active': ''}`} 
-                        to="/dc"
+                        to="heroes-spa/dc"
                     >
                         DC
                     </NavLink>
                     <NavLink 
                         className={({isActive}) => `nav-item nav-link ${ isActive ? 'active': ''}`} 
-                        to="/search"
+                        to="heroes-spa/search"
                     >
                         Search
                     </NavLink>
