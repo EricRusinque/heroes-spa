@@ -27,7 +27,6 @@ export const HeroCard = ({id, superhero, publisher, alter_ego, first_appearance,
                     <img src={ heroImageUrl } alt={ superhero } className="card-img"/>
                 </div>
             </div>
-
             <div className="col-8">
                 <div className="card-body">
                     <h5 className="card-title">{ superhero }</h5>
@@ -48,6 +47,7 @@ export const HeroCard = ({id, superhero, publisher, alter_ego, first_appearance,
                     </Link>
                     
                 </div>
+
             </div>
 
         </div>
